@@ -33,6 +33,7 @@ for j = 1:1:length(original_data)
         break;
     end
 end
+
 if j > 1
     data4 = [original_data(1:j-1,1:2);original_data(j+1:end,1:2)];
 else
