@@ -1,8 +1,7 @@
 function [res] = average_query(data)
 % function to compute the average age of patients 
 % having type-2 diabetes without differential pri-
-% vacy mechanism.
-
+% vacy mechanism
 % data is the input dataset
 res = 0;
 k = 0;
