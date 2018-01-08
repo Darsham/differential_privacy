@@ -5,13 +5,10 @@ age_min = 21; % minimum age of the patients
 age_max = 70; % maximum age of the patients
 size_of_data = 1000; % total no. of patients
 epsilon = 2; 
-
 % Generating an original data-set
 original_data = generate_data(age_min,age_max,size_of_data);
-
 % Generating data-set 1 which adds 1 additional diabetic patient to the original data-set
 data1 = [original_data;randi([age_min age_max],1,1),1];
-
 % Generating data-set 2 which adds 1 additional non-diabetic patient to the original data-set
 data2 = [original_data;randi([age_min age_max],1,1),0];
 
